@@ -1,0 +1,39 @@
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    margin: 2vw;
+    color: rgb(209, 207, 207);
+}
+span:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5vh;
+}
+
+@media only screen and(min-width:481px) and (max-width:768px){
+    span{
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width:480px){
+    span{
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (min-width:1921px) and (max-width:2880px){
+    span{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (min-width:2881px){
+    span{
+        font-size: 2rem;
+    }
+}
