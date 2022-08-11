@@ -17,7 +17,7 @@ const Home = () => {
     }
     )
   }
-  console.log(moviedata);
+  
   return (
     <>
       <div className='homepageContainer'>
