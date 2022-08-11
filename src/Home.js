@@ -8,7 +8,7 @@ const Home = () => {
     fetch("https://api.themoviedb.org/3/movie/"+ Math.floor(Math.random()*100000).toString() + `?api_key=${process.env.REACT_APP_API_KEY}`)
     .then((res)=>res.json())
     .then((data)=>{
-      if(data.success === false || data.poster_path === null){
+      if(data.success === false || data.poster_path === null || data.adult ===true){
         handleClick()
       } else {
         setMoviedata(data)
