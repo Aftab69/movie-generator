@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav>
         <NavLink style={navStyle} to="/"><span>HOME</span></NavLink>
         <NavLink style={navStyle} to="/popular"><span>POPULAR</span></NavLink>
-        <NavLink style={navStyle} to="/trending"><span>TRENDING</span></NavLink>
+        <NavLink style={navStyle} to="/toprated"><span>TOP RATED</span></NavLink>
         <NavLink style={navStyle} to="/search"><span>SEARCH</span></NavLink>
       </nav>
     </>

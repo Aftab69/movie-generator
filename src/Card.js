@@ -8,7 +8,7 @@ const Card = (props) => {
             <img src={"https://image.tmdb.org/t/p/w500"+props.data.poster_path} alt={props.data.title} />
             <div className='textContainer'>
                 <p>{props.data.title}</p>
-                <p>{props.data.vote_average}</p>
+                <p>Rating: {props.data.vote_average}</p>
             </div>
         </div>
     </>
