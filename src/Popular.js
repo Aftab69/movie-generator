@@ -44,7 +44,7 @@ const Popular = () => {
             <Card data={individualData} key={individualData.id} />
         ))}
       </div>
-      <div className='buttonsContainer'>
+      <div className='popularpagebuttonsContainer'>
           <button onClick={handleClick} value="1">1</button>
           <button onClick={handleClick} value="2">2</button>
           <button onClick={handleClick} value="3">3</button>
