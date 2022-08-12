@@ -89,6 +89,7 @@
         transform: scale(1.25);
         margin: 24px;
         padding: 20px 20px;
+        font-size: 1.1rem;
     }
 }
 @media only screen and (min-width:2881px){
@@ -102,5 +103,6 @@
         transform: scale(1.5);
         margin: 32px;
         padding: 18px 18px;
+        font-size: 1.2rem;
     }
 }

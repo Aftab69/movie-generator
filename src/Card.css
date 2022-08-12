@@ -46,3 +46,12 @@
         transform: scale(1);
     }
 }
+@media only screen and (min-width:2881px) {
+    .cardContainer{
+        width: 500px;
+        height: 875px;
+    }
+    .textContainer>p{
+        font-size: 1.8rem;
+    }
+}

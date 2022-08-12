@@ -112,4 +112,12 @@
     .generateButtonContainer>button{
         font-size: 2rem;
     }
+    .homepageCardContainer{
+        width: 500px;
+        height: 875px;
+        margin-top: 160px;
+    }
+    .homepageTextContainer>p{
+        font-size: 1.8rem;
+    }
 }
