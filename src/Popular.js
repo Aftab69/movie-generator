@@ -14,6 +14,7 @@ const Popular = () => {
   const handleClick = (e) =>{
     e.preventDefault();
     setPage(e.target.value);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
   const handleNext = (e) =>{
     e.preventDefault();
@@ -22,6 +23,7 @@ const Popular = () => {
     } else {
       setPage(parseInt(page));
     }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
   const handlePrevious = (e) =>{
     e.preventDefault();
@@ -30,10 +32,12 @@ const Popular = () => {
     } else {
       setPage(parseInt(page));
     }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
   const handleLast = (e) =>{
     e.preventDefault();
     setPage(500);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   return (
